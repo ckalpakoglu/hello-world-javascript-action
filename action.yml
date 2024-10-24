@@ -10,7 +10,6 @@ inputs:
     default: World
   allowed-ip:
     description: allowed ip list
-    default: 8.8.8.8
     required: true
 
 # Define your outputs here.
