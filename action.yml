@@ -8,6 +8,14 @@ inputs:
     description: Who to greet
     required: true
     default: World
+  allowed-ip:
+    description: allowed ip list
+    default: 8.8.8.8
+    required: true
+  allowed-hosts:
+    description: allowed host list
+    default: "kondukto.io"
+    required: true
 
 # Define your outputs here.
 outputs:
