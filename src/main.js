@@ -12,9 +12,7 @@ async function run() {
     core.info(`Hello, ${whoToGreet}!`)
 
     const allowedIPList = core.getInput('allowed-ip', { required: true })
-    const allowedHosts = core.getInput('allowed-hosts', { required: true })
     core.info(`Allowed IP List: ${allowedIPList}`)
-    core.info(`Allowed Host List: ${allowedHosts}`)
 
     // Get the current time and set as an output
     const time = new Date().toTimeString()

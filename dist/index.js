@@ -29865,6 +29865,9 @@ async function run() {
     const whoToGreet = core.getInput('who-to-greet', { required: true })
     core.info(`Hello, ${whoToGreet}!`)
 
+    const allowedIPList = core.getInput('allowed-ip', { required: true })
+    core.info(`Allowed IP List: ${allowedIPList}`)
+
     // Get the current time and set as an output
     const time = new Date().toTimeString()
     core.setOutput('time', time)
